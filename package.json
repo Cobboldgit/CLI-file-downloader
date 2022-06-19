@@ -1,0 +1,22 @@
+{
+  "name": "cli-downloader",
+  "version": "1.0.0",
+  "main": "download.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "bin": {
+    "download": "./download.js"
+  },
+  "devDependencies": {
+    "electron": "^19.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "download": "^8.0.0",
+    "file-type": "16.0.0",
+    "node-notifier": "^10.0.1"
+  }
+}
